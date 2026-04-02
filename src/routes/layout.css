@@ -1,1 +1,17 @@
 @import 'tailwindcss';
+
+:root {
+	--bg-color: rgb(243 244 246); /* gray-100 */
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--bg-color: rgb(17 24 39); /* gray-900 */
+	}
+}
+
+html,
+body {
+	min-height: 100dvh;
+	background-color: var(--bg-color);
+}

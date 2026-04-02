@@ -23,7 +23,7 @@
 	}
 </script>
 
-<div class="flex min-h-screen items-center justify-center bg-gray-50 px-4 dark:bg-gray-900">
+<div class="flex min-h-dvh items-center justify-center bg-gray-50 px-4 dark:bg-gray-900">
 	<div class="w-full max-w-md">
 		<div class="rounded-lg bg-white p-8 shadow-xl dark:bg-gray-800">
 			<div class="mb-8 text-center">

@@ -48,7 +48,7 @@
 {:else}
 	<ConnectionStatus onLogout={handleLogout} />
 
-	<div class="min-h-screen bg-gray-100 px-4 py-8 dark:bg-gray-900">
+	<div class="min-h-dvh bg-gray-100 px-4 py-8 dark:bg-gray-900">
 		<div class="mx-auto mt-12 max-w-7xl space-y-6">
 			{#if $mqttConnection.state === 'connecting'}
 				<LoadingSpinner message={translations.loading.connecting} />
