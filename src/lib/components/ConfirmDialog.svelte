@@ -22,7 +22,7 @@
 
 {#if open}
 	<div
-		class="bg-opacity-50 fixed inset-0 z-50 flex items-center justify-center bg-black"
+		class="fixed inset-0 z-50 flex items-center justify-center bg-black/80"
 		onclick={onCancel}
 		onkeydown={(e) => e.key === 'Escape' && onCancel()}
 		role="button"

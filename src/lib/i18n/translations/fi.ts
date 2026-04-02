@@ -41,6 +41,8 @@ export default {
 	controls: {
 		title: 'Ohjaimet',
 		acPower: 'Ilmalämpöpumppu',
+		acPowerOn: 'Kytke päälle',
+		acPowerStatus: 'Kytke ilmalämpöpumppu päälle',
 		reboot: 'Käynnistä Nappula uudelleen',
 		triggerReboot: 'Käynnistä Nappula-ohjain uudelleen'
 	},
@@ -56,6 +58,8 @@ export default {
 	confirm: {
 		confirm: 'Vahvista',
 		cancel: 'Peruuta',
+		acPowerTitle: 'Kytke ilmalämpöpumppu päälle?',
+		acPowerMessage: 'Tämä lähettää komennon ilmalämpöpumpun käynnistämiseksi.',
 		rebootTitle: 'Käynnistä Nappula uudelleen?',
 		rebootMessage:
 			'Tämä käynnistää Nappulan uudelleen. Anturitiedot eivät ole saatavilla uudelleenkäynnistyksen aikana.'

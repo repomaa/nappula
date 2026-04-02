@@ -20,8 +20,7 @@
 					data={{
 						nodeId: 'ac',
 						propertyId: 'trigger',
-						type: 'ac',
-						value: device.nodes.ac.properties.trigger.value === 'true'
+						type: 'ac'
 					}}
 				/>
 			{/if}
@@ -30,8 +29,7 @@
 					data={{
 						nodeId: 'reboot',
 						propertyId: 'trigger',
-						type: 'reboot',
-						value: false
+						type: 'reboot'
 					}}
 				/>
 			{/if}

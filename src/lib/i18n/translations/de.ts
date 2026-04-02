@@ -41,6 +41,8 @@ export default {
 	controls: {
 		title: 'Steuerung',
 		acPower: 'Wärmepumpe',
+		acPowerOn: 'Einschalten',
+		acPowerStatus: 'Wärmepumpe einschalten',
 		reboot: 'Nappula neustarten',
 		triggerReboot: 'Nappula neustarten'
 	},
@@ -56,6 +58,8 @@ export default {
 	confirm: {
 		confirm: 'Bestätigen',
 		cancel: 'Abbrechen',
+		acPowerTitle: 'Wärmepumpe einschalten?',
+		acPowerMessage: 'Dies sendet einen Befehl zum Einschalten der Wärmepumpe.',
 		rebootTitle: 'Nappula neustarten?',
 		rebootMessage: 'Dies startet Nappula neu. Sensordaten sind währenddessen nicht verfügbar.'
 	},

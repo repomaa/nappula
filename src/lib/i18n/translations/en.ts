@@ -41,6 +41,8 @@ export default {
 	controls: {
 		title: 'Controls',
 		acPower: 'AC Power',
+		acPowerOn: 'Turn On',
+		acPowerStatus: 'Turn on the air conditioning',
 		reboot: 'Restart Nappula',
 		triggerReboot: 'Restart the Nappula controller'
 	},
@@ -56,6 +58,8 @@ export default {
 	confirm: {
 		confirm: 'Confirm',
 		cancel: 'Cancel',
+		acPowerTitle: 'Turn On AC?',
+		acPowerMessage: 'This will send a command to turn on the air conditioning.',
 		rebootTitle: 'Restart Nappula?',
 		rebootMessage: 'This will restart Nappula. Sensor data will be unavailable during restart.'
 	},
